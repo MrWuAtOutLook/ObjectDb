@@ -12,7 +12,7 @@ unit SSObjDb_TLB;
 // ************************************************************************ //
 
 // $Rev: 52393 $
-// File generated on 2019/8/27 10:30:19 from Type Library described below.
+// File generated on 2019/9/27 21:50:54 from Type Library described below.
 
 // ************************************************************************  //
 // Type Lib: D:\WSH\SSDbObj\src\ssobjdb.tlb (1)
@@ -924,32 +924,32 @@ type
     ['{A43488B9-B6BA-4663-8190-8EA2B3881041}']
     procedure InvalidateGrid; safecall;
     procedure InvalidRow(ARow: Integer); safecall;
-    procedure Inn_ZoomRatioChanged; safecall;
-    procedure Inn_ClearColumn; safecall;
-    procedure Inn_BeforeNodeCollapsing(Index: Integer); safecall;
-    procedure Inn_AfterNodeCollapsing(Index: Integer; Count: Integer); safecall;
-    procedure Inn_BeforeNodeExpanding(Index: Integer); safecall;
-    procedure Inn_AfterNodeExpanding(Index: Integer; Count: Integer); safecall;
-    procedure Inn_AfterSetColTabStop(Col: Integer; Value: WordBool); safecall;
-    procedure Inn_OnSetColLayout(var CanSet: WordBool); safecall;
-    procedure Inn_OnSetColVisible(var CanSet: WordBool); safecall;
-    procedure Inn_OnSetColWidth(var CanSet: WordBool); safecall;
-    procedure Inn_AfterSetColumns; safecall;
-    procedure Inn_BeforeBatchAdding; safecall;
-    procedure Inn_AfterBatchAdding; safecall;
+    procedure __ZoomRatioChanged; safecall;
+    procedure __ClearColumn; safecall;
+    procedure __BeforeNodeCollapsing(Index: Integer); safecall;
+    procedure __AfterNodeCollapsing(Index: Integer; Count: Integer); safecall;
+    procedure __BeforeNodeExpanding(Index: Integer); safecall;
+    procedure __AfterNodeExpanding(Index: Integer; Count: Integer); safecall;
+    procedure __AfterSetColTabStop(Col: Integer; Value: WordBool); safecall;
+    procedure __OnSetColLayout(var CanSet: WordBool); safecall;
+    procedure __OnSetColVisible(var CanSet: WordBool); safecall;
+    procedure __OnSetColWidth(var CanSet: WordBool); safecall;
+    procedure __AfterSetColumns; safecall;
+    procedure __BeforeBatchAdding; safecall;
+    procedure __AfterBatchAdding; safecall;
     function Get_VisibleRowCount: Integer; safecall;
     procedure UpdateRowHeight(ARow: Integer); safecall;
-    procedure Inn_OnRowHeightsChanged; safecall;
+    procedure __OnRowHeightsChanged; safecall;
     procedure HideInplaceEditor; safecall;
-    procedure Inn_BeforeClearingView; safecall;
-    procedure Inn_AfterClearingView; safecall;
-    procedure Inn_BeforeItemDeleting(const AObj: IBasicRow); safecall;
-    procedure Inn_AfterDeleteItem(DelIdx: Integer; DelCount: Integer; OrigRow: Integer; 
-                                  DrawParentNodeBtn: WordBool); safecall;
-    procedure Inn_AfterAddItem(OrigIdx: Integer; ParentIdx: Integer; AddCount: Integer); safecall;
-    procedure Inn_AfterUnBind; safecall;
-    procedure Inn_AfterBind; safecall;
-    procedure Inn_AfterSetDataSet; safecall;
+    procedure __BeforeClearingView; safecall;
+    procedure __AfterClearingView; safecall;
+    procedure __BeforeItemDeleting(const AObj: IBasicRow); safecall;
+    procedure __AfterDeleteItem(DelIdx: Integer; DelCount: Integer; OrigRow: Integer; 
+                                DrawParentNodeBtn: WordBool); safecall;
+    procedure __AfterAddItem(OrigIdx: Integer; ParentIdx: Integer; AddCount: Integer); safecall;
+    procedure __AfterUnBind; safecall;
+    procedure __AfterBind; safecall;
+    procedure __AfterSetDataSet; safecall;
     function Get_IsDelphiControl: WordBool; safecall;
     function Get_IsDelphiDesignState: WordBool; safecall;
     function Get_IsDelphiLoadingState: WordBool; safecall;
@@ -1085,32 +1085,32 @@ type
     ['{A43488B9-B6BA-4663-8190-8EA2B3881041}']
     procedure InvalidateGrid; dispid 96;
     procedure InvalidRow(ARow: Integer); dispid 97;
-    procedure Inn_ZoomRatioChanged; dispid 98;
-    procedure Inn_ClearColumn; dispid 99;
-    procedure Inn_BeforeNodeCollapsing(Index: Integer); dispid 101;
-    procedure Inn_AfterNodeCollapsing(Index: Integer; Count: Integer); dispid 102;
-    procedure Inn_BeforeNodeExpanding(Index: Integer); dispid 103;
-    procedure Inn_AfterNodeExpanding(Index: Integer; Count: Integer); dispid 104;
-    procedure Inn_AfterSetColTabStop(Col: Integer; Value: WordBool); dispid 109;
-    procedure Inn_OnSetColLayout(var CanSet: WordBool); dispid 110;
-    procedure Inn_OnSetColVisible(var CanSet: WordBool); dispid 111;
-    procedure Inn_OnSetColWidth(var CanSet: WordBool); dispid 112;
-    procedure Inn_AfterSetColumns; dispid 113;
-    procedure Inn_BeforeBatchAdding; dispid 114;
-    procedure Inn_AfterBatchAdding; dispid 115;
+    procedure __ZoomRatioChanged; dispid 98;
+    procedure __ClearColumn; dispid 99;
+    procedure __BeforeNodeCollapsing(Index: Integer); dispid 101;
+    procedure __AfterNodeCollapsing(Index: Integer; Count: Integer); dispid 102;
+    procedure __BeforeNodeExpanding(Index: Integer); dispid 103;
+    procedure __AfterNodeExpanding(Index: Integer; Count: Integer); dispid 104;
+    procedure __AfterSetColTabStop(Col: Integer; Value: WordBool); dispid 109;
+    procedure __OnSetColLayout(var CanSet: WordBool); dispid 110;
+    procedure __OnSetColVisible(var CanSet: WordBool); dispid 111;
+    procedure __OnSetColWidth(var CanSet: WordBool); dispid 112;
+    procedure __AfterSetColumns; dispid 113;
+    procedure __BeforeBatchAdding; dispid 114;
+    procedure __AfterBatchAdding; dispid 115;
     property VisibleRowCount: Integer readonly dispid 118;
     procedure UpdateRowHeight(ARow: Integer); dispid 119;
-    procedure Inn_OnRowHeightsChanged; dispid 120;
+    procedure __OnRowHeightsChanged; dispid 120;
     procedure HideInplaceEditor; dispid 122;
-    procedure Inn_BeforeClearingView; dispid 123;
-    procedure Inn_AfterClearingView; dispid 124;
-    procedure Inn_BeforeItemDeleting(const AObj: IBasicRow); dispid 125;
-    procedure Inn_AfterDeleteItem(DelIdx: Integer; DelCount: Integer; OrigRow: Integer; 
-                                  DrawParentNodeBtn: WordBool); dispid 126;
-    procedure Inn_AfterAddItem(OrigIdx: Integer; ParentIdx: Integer; AddCount: Integer); dispid 127;
-    procedure Inn_AfterUnBind; dispid 128;
-    procedure Inn_AfterBind; dispid 129;
-    procedure Inn_AfterSetDataSet; dispid 130;
+    procedure __BeforeClearingView; dispid 123;
+    procedure __AfterClearingView; dispid 124;
+    procedure __BeforeItemDeleting(const AObj: IBasicRow); dispid 125;
+    procedure __AfterDeleteItem(DelIdx: Integer; DelCount: Integer; OrigRow: Integer; 
+                                DrawParentNodeBtn: WordBool); dispid 126;
+    procedure __AfterAddItem(OrigIdx: Integer; ParentIdx: Integer; AddCount: Integer); dispid 127;
+    procedure __AfterUnBind; dispid 128;
+    procedure __AfterBind; dispid 129;
+    procedure __AfterSetDataSet; dispid 130;
     property IsDelphiControl: WordBool readonly dispid 131;
     property IsDelphiDesignState: WordBool readonly dispid 132;
     property IsDelphiLoadingState: WordBool readonly dispid 133;
